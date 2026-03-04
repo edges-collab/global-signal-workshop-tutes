@@ -2021,7 +2021,7 @@ wheels = [
 
 [[package]]
 name = "pygsdata"
-version = "0.2.4"
+version = "0.2.5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "astropy" },
@@ -2034,7 +2034,7 @@ dependencies = [
     { name = "scipy" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/17/1a/809c91bc0a329ea0b0af3bac193ab1d4628b32af9837b00d4d3a675a04ef/pygsdata-0.2.4.tar.gz", hash = "sha256:fbdf854657650afec47a17fbde83102af27e4e41eaff4529dd0a164045326ac9", size = 187319, upload-time = "2026-02-25T20:45:05.934Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/df/bf/953fdb3b1ec5ca42d43f2f70cc1acee5b40f296bda3a6e45db45bc736799/pygsdata-0.2.5.tar.gz", hash = "sha256:417d4e12af3dade8c3e090aaa715e190032177a7817edb69b15f6718fd29e7e8", size = 188738, upload-time = "2026-03-03T18:24:27.523Z" }
 
 [[package]]
 name = "pyparsing"
@@ -2699,7 +2699,7 @@ requires-dist = [
     { name = "edges-analysis", specifier = ">=8.2.0" },
     { name = "ipykernel", specifier = ">=7.2.0" },
     { name = "jupyter", specifier = ">=1.1.1" },
-    { name = "pygsdata", specifier = ">=0.2.4" },
+    { name = "pygsdata", specifier = ">=0.2.5" },
     { name = "read-acq", specifier = ">=1.2.0" },
 ]
 
