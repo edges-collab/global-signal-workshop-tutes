@@ -36,6 +36,20 @@ wget https://galileo.sese.asu.edu/edges-data/2016-265.gsh5
 mv *.gsh5 data/
 ```
 
+**Note: ** if you have some of your own experiment-specific
+code in a package and want to install it to complete some
+of the BYOD session challenges, you can do this with:
+
+```bash
+uv pip install git+https://github.com/YOUR-ORG/YOUR-REPO
+```
+
+or 
+
+```bash
+uv pip install /path/to/local/repo
+```
+
 ## Following the tutorials
 
 One of the sessions will be dedicated to going through the tutorials
